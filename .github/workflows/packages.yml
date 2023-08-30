@@ -9,7 +9,7 @@ on:
   workflow_dispatch:
 
 env:
-  ACCOUNT_NAME: '<ACCOUNT_NAME>' # GitHubのアカウント名を入れてください
+  ACCOUNT_NAME: 'twinparadox5820' # GitHubのアカウント名を入れてください
 
 jobs:
   publish-nuget:
