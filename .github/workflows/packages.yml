@@ -31,5 +31,5 @@ jobs:
     - name: Nuget push
       run: |
         dotnet nuget add source --username ${{ env.ACCOUNT_NAME }} --password ${{ secrets.GITHUB_TOKEN }} --store-password-in-clear-text --name github "https://nuget.pkg.github.com/${{ env.ACCOUNT_NAME }}/index.json"
-        dotnet nuget push bin/Release/12FactorAppLibrarySample.*.nupkg --source "github"
+        dotnet nuget push bin/Release/12FactorAppLibrarySample.*.nupkg --source "github" --api-key ${{ secrets.GITHUB_TOKEN }} --skip-duplicate
       working-directory: ./TFApp_library
