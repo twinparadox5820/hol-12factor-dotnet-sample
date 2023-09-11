@@ -15,6 +15,6 @@ public class IndexModel : PageModel
 
     public void OnGet()
     {
-        Message = new SampleClassInLibrary().Message;
+        Message = SampleClassInLibrary.Message;
     }
 }
