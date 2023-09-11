@@ -5,7 +5,7 @@
     <ImplicitUsings>enable</ImplicitUsings>
     <Nullable>enable</Nullable>
 
-    <PackageId>12FactorSample</PackageId>
+    <PackageId>12FactorAppLibrarySample</PackageId>
     <Version>1.0.1</Version>
     <Authors>Alterbooth</Authors>
     <Company>Alterbooth</Company>
